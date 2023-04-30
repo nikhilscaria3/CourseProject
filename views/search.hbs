@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Search Example</title>
+</head>
+<body>
+  <form>
+    <input type="text" name="query" placeholder="Search...">
+    <button type="submit">Search</button>
+  </form>
+
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Get the user's search query
+      const query = form.elements.query.value;
+
+      // Call your Node.js search script
+      const response = await fetch(`/search?query=${query}`);
+      const data = await response.json();
+
+      // Display the search results
+      console.log(data);
+    });
+  </script>
+</body>
+</html>

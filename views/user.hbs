@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="styles/edit.css" type="text/css">
+</head>
+
+<body>
+
+
+    {{!-- <ul>
+        <h1>Account Summary</h1>
+        {{#each list}}
+        <li>
+            <h5>username</h5>{{ this.username}} - <h5>password</h5>{{ this.password}} <br><br>
+            <a href="/edit?edit_id={{this._id}}">Update Your Account</a>
+            <a href="/edit?delete_id={{this._id}}"
+                onclick="if(!confirm('Are you sure you want to delete?')){ return false; }">Delete Your Account</a>
+        </li>
+        {{/each}} --}}
+    {{!-- </ul> --}}
+
+ <ul>
+        <h1>Account Summary</h1>
+        {{#each list}}
+        <li>
+            <h5>Username</h5>{{ this.username}}  <h5>Password</h5>{{ this.password}} <br><br>
+        </li>
+        {{/each}}
+    </ul>
+
+
+
+</body>
+
+</html>

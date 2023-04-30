@@ -1,0 +1,33 @@
+/* Center all iframes */
+iframe {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Set a max-width for the container */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Set a padding for the rows */
+  .row {
+    padding: 20px 0;
+  }
+  
+  /* Set a margin for the columns */
+  .col-md-6,
+  .col-lg-6 {
+    margin-bottom: 20px;
+  }
+  
+  /* Add a box-shadow effect on hover */
+  iframe:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Set a background color for odd rows */
+  .row:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  

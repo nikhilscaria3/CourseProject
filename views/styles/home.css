@@ -1,0 +1,261 @@
+html,body{
+    max-width:100%;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background-image: linear-gradient(rgb(165, 165, 168), rgb(250, 243, 243));
+}
+.navbar-toggler-icon{
+    background-color: aliceblue;
+}
+.nav-link {
+    font-size: 1rem;
+    color: rgb(253, 245, 245);
+    font-weight: 400;
+    transition:all .4s ease;
+
+}
+
+.nav-link:hover {
+    background-color: black;
+    color: aliceblue;
+    transform: scale(1,1);
+}
+
+.navbar-brand {
+    /* font-size: 1.5rem; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+.image2{
+width: 2rem;
+height:2rem;
+}
+#img1{
+    padding: 5rem;
+}
+.main h5 {
+
+    line-height: 1;
+    /* border-bottom: 3px solid skyblue; */
+    width: 100%;
+
+}
+
+.main {
+    color: white;
+    width: 100%;
+    background-image: linear-gradient(rgb(19, 19, 20), rgb(35, 134, 234));
+}
+
+
+.image1 {
+    width: 100%;
+    height:100%
+    /* /* margin-left: 3rem;
+    margin-top: 5rem;
+    width: 70%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;--> */
+}
+
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 400
+}
+
+.btn1 {
+    background-color: rgb(31, 30, 37);
+    padding: 1rem;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: rgb(230, 229, 236);
+    border-color: rgb(181, 181, 190);
+    padding: 13px;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+#css {
+    margin-top: 1rem;
+}
+
+#boots {
+    margin-top: 1rem;
+}
+
+#video {
+    margin-left: 7rem;
+    width: 15rem;
+    height: 5rem;
+
+}
+
+#button1 {
+    background-color: rgb(13, 13, 15);
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+ line-height: 4rem;
+
+}
+
+#button1:hover {
+    background-color: rgb(245, 244, 244);
+    color: rgb(4, 4, 4);
+}
+
+#button2 {
+    background-color: rgb(1, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    color: rgb(244, 238, 238);
+    text-decoration: none;
+}
+
+#button2:hover {
+    background-color: rgb(250, 245, 245);
+    color: rgb(2, 2, 2);
+}
+
+.progress {
+    animation-name: example;
+    animation-duration: 5s;
+    color: aqua;
+}
+
+@keyframes example {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+box-icon {
+   
+  margin: auto;
+   display: flex;
+   flex: row;
+    /* margin-left: 12rem;
+    margin-top: 1rem; */
+}
+
+#webdesign {
+    width: 100%;
+    height: 20rem;
+}
+
+#services {
+    font-style: bold;
+    font-weight: 700;
+
+}
+#letstalk {
+    font-style: bold;
+    font-weight: 700;
+
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2:hover {
+    color: rgb(22, 72, 88);
+
+}
+
+
+.btn6 {
+    color: rgb(220, 212, 212);
+    box-sizing: border-box;
+    width: 7rem;
+    height: 3rem;
+    margin-top: 8rem;
+    background-color: rgb(8, 0, 0);
+    border: none;
+   border-radius: 6px;
+}
+.btn6:hover{
+    background-color: rgb(35, 34, 34);
+    color: aliceblue;
+}
+
+.text-white {
+    text-align: center;
+}
+
+span {
+    position: relative;
+    color: rgb(2, 2, 2)
+}
+
+span i {
+    color: rgb(6, 6, 6);
+}
+
+.form-control {
+    width: 100%;
+}
+
+.whatsapp {
+    
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(13, 203, 140);
+}
+.mail{
+    position: fixed;
+    right: 18px;
+    top: 55%;
+    transform: translateY(-50%);
+    color: rgb(185, 73, 25);
+}
+.phone{
+    position: fixed;
+    right: 18px;
+    top: 60%;
+    transform: translateY(-50%);
+    color: rgb(26, 87, 220);
+}
